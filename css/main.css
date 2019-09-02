@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url(/fonts/OpenSans-Regular.woff);
+  font-weight: 400;
+  font-style: normal;  
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url(/fonts/OpenSans-Bold.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+  margin: 0; 
+  font-family: "OpenSans-Regular"; 
+  color: #0f0d0e;
+}
+
+.container { 
+  padding: 0 20px;
+}
+
+.first-screen {
+	height: 100vh;
+	background-color: #0a0e34;
+	background-image: url(/images/first-screen.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.logo {
+	padding-top: 32px;
+	text-align: center;
+}
+
+svg {
+	fill: #ffffff;
+}
+
+.logo svg {
+	width: 133px;
+}
+
+.welcome {
+	padding: 50px 0
+}
+
+.welcome h1 {
+	font-size: 28px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.welcome h1 span {
+	display: block;
+	padding-left: 47px;
+}
+
+.first-screen .btn {
+	display: flex;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #5e42b0;
+	border-radius: 50px;
+	margin-bottom: 12px;
+	padding: 0 26%;
+}
+
+.first-screen .btn span {
+	display: block;
+	font-family: "OpenSans-Bold", Arial, sans-serif
+
+}
+
+.first-screen .btn svg {
+	width: 24px;
+	padding-right: 10px
+}
+
+.welcome p {
+	font-size: 8px;
+	text-transform: uppercase;
+}
+
+.welcome p span {
+	font-family: "OpenSans-Bold", Arial, sans-serif;	
+}
+
+h1 {
+	font-family: "OpenSans-Bold", Arial, sans-serif;
+ }
+
+@media (min-width: 768px) {
+	.welcome {
+		min-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.welcome h1 {
+		font-size: 64px;
+	}
+	.welcome span {
+		display: block;
+		padding-left: 107px;
+	}
+}
