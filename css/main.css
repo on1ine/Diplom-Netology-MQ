@@ -54,7 +54,7 @@ svg {
 	position: relative;
 	padding: 32px 0 100px;
 	background-color: #0a0e34;
-	background-image: url(/images/football_1920.jpg);
+	background-image: url(../images/football_1920.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;	
@@ -250,11 +250,11 @@ svg {
 }
 
 .s-section-atlets::before {
-	background-image: url(/images/footballer_192.png);
+	background-image: url(../images/footballer_192.png);
 }
 
 .s-section-players::before {
-	background-image: url(/images/basketballer_302.png);
+	background-image: url(../images/basketballer_302.png);
 }
 
 .s-section-atlets ol li:nth-child(3) {
@@ -294,7 +294,7 @@ svg {
 	position: relative;
 	padding: 20px 0 30px;
 	background-color: #0a0e34;
-	background-image: url(/images/game_1920.jpg);
+	background-image: url(../images/game_1920.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;	
@@ -421,14 +421,14 @@ svg {
 	.s-section-atlets::before {
 		top: 30px;
 		right: 38%;		
-		background-image: url(/images/footballer_497.png);	
+		background-image: url(../images/footballer_497.png);	
 		background-size: contain;	
 	}
 	.s-section-players::before {
 		top: 0;
 		right: 0;
 		width: 436px;
-		background-image: url(/images/basketballer_436.png);		
+		background-image: url(../images/basketballer_436.png);		
 	}
 
 	.surface-logo {
@@ -507,12 +507,12 @@ svg {
 	.s-section-atlets::before {
 		top: -20px;
 		right: 25%;
-    background-image: url(/images/footballer_566.png);
+    background-image: url(../images/footballer_566.png);
 	}
 	.s-section-players::before {
     width: 991px;
     height: 815px;
-    background-image: url(/images/basketballer_991.png);
+    background-image: url(../images/basketballer_991.png);
     background-size: 50vw;
     background-position: right top;
 	}
