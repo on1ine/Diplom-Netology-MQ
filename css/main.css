@@ -328,6 +328,7 @@ svg {
 }
 
 .download h2 {
+	max-width: 665px;
 	font-size: 3.2rem;
 	color: #ffffff;
 	padding: 0 0 20px;
@@ -439,8 +440,7 @@ svg {
 		width: 436px;
 		top: 0;
 		right: 0;
-		background-image: url(../images/basketballer_436.png);			
-		background-size: contain;
+		background-image: url(../images/basketballer_436.png);
 	}
 	.surface-logo {
     width: 145px;
@@ -515,19 +515,20 @@ svg {
 		padding-left: 10%;
 	}
 	.s-section-atlets::before {
-		width: 566px;
-		top: -20px;
-		right: 50%;
+		width: 100%;
+    height: 800px;
+    top: -20px;
+    right: 50%;
     background-image: url(../images/footballer_566.png);
+    background-position: right 50px center;
 	}
 	.s-section-players::before {
-		width: 991px;
+		width: 55%;
 		height: 815px;
-		top: -150px;
-		right: 5%;
+		top: -100px;
+		left: 45%;
 		background-image: url(../images/basketballer_991.png);
-		background-position: right center;
-		background-size: 51vw;
+		background-position: left center;
 	}
 	.download {
 		flex-direction: row;
