@@ -255,9 +255,11 @@ svg {
 
 .s-section-atlets::before {
 	background-image: url(../images/footballer_192.png);
+	height: 281px;
 }
 
 .s-section-players::before {
+	height: 248px;
 	background-image: url(../images/basketballer_302.png);
 }
 
@@ -430,6 +432,7 @@ svg {
 	}
 	.s-section-atlets::before {
 		width: 497px;
+		height: 699px;
 		top: 30px;
 		right: 60%;		
 		background-image: url(../images/footballer_497.png);	
@@ -438,6 +441,7 @@ svg {
 	}
 	.s-section-players::before {		
 		width: 436px;
+		height: 565px;
 		top: 0;
 		right: 0;
 		background-image: url(../images/basketballer_436.png);
