@@ -48,6 +48,7 @@ svg {
 
 .first-screen, .footer  {
 	text-transform: uppercase;
+	height: 100vh;
 }
 
 .first-screen {
