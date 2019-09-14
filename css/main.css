@@ -542,8 +542,3 @@ svg {
 	}
 }
 
-@media (max-width: 480px) {
-	.first-screen, .footer  {
-		height: 100vh;
-	}
-}
